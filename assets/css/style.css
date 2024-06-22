@@ -648,7 +648,9 @@ img{
 \*-----------------------------------*/
 
 .service { background-color: var(--white-2);
-            background-image: url(/assets/images/mountains-best-for-desktop-background-wallpaper-preview.jpg);
+            background-image: url(/assets/mountains-best-for-desktop-background-wallpaper-preview.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
             margin-top: -30px;                         }
 
 .service .section-text { margin-block: 5px 35px; }
@@ -688,6 +690,7 @@ img{
 
 #web{
   display: none;
+  
 }
 
 #seo{
@@ -720,6 +723,9 @@ label{
   cursor: pointer;
   font-weight: 600;
 
+}
+.read{
+  margin-bottom: -30px;
 }
 
 
@@ -760,6 +766,7 @@ label{
 
 #web:checked ~ label{
    visibility: hidden;
+  
 }
 
 #web:checked ~ label:after{
@@ -828,7 +835,9 @@ label{
 .project .section-text { margin-block: 5px 35px; }
 
 .project{
-  background-image: url(/assets/images/mountains-best-for-desktop-background-wallpaper-preview.jpg);
+  background-image: url(/assets/mountains-best-for-desktop-background-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .project-card {
@@ -897,7 +906,9 @@ label{
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
-  background-image: url(/assets/images/mountains-best-for-desktop-background-wallpaper-preview.jpg);
+  background-image: url(/assets/mountains-best-for-desktop-background-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about-banner {
@@ -1062,7 +1073,9 @@ label{
 \*-----------------------------------*/
 
 .contact { background-color: var(--white-2); 
-            background-image: url(/assets/images/mountains-best-for-desktop-background-wallpaper-preview.jpg);}
+            background-image: url(/assets/mountains-best-for-desktop-background-wallpaper-preview.jpg);
+          background-repeat: no-repeat;
+        background-size: cover;}
 
 .contact .section-text { margin-block: 5px 35px; }
 
